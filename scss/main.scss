@@ -28,6 +28,6 @@
 @import 'layout/responsive/laptop.scss';
 @import 'layout/responsive/desktop.scss';
 
-@import 'boxes.scss';
+@uses "boxes";
 
 
