@@ -95,29 +95,21 @@
         </header>
         
         <!-- main header ends-->
-<div class="card-glass animate-fade-in delay-3" style="padding: 2rem;">
-  <p class="stat-label mb-4">Pure Silicon Technology</p>
+/* Glass card - THIS IS THE CSS */
+.card-glass {
+  background: var(--card-bg);           /* semi-transparent white */
+  backdrop-filter: blur(12px);          /* frosted glass blur effect */
+  border: 1px solid var(--border);      /* subtle white border */
+  border-radius: var(--radius);         /* rounded corners */
+  padding: 1.5rem;
+  transition: all 0.3s;                 /* smooth hover transition */
+}
 
-  <div class="stats-grid">
-    <div class="stat-item">
-      <p class="stat-label">Specific Capacity</p>
-      <div class="stat-value">3,200</div>
-      <div class="stat-unit">mAh g⁻¹ (C/20)</div>
-    </div>
+.card-glass:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
 
-    <div class="stat-item">
-      <p class="stat-label">Coulombic Efficiency</p>
-      <div class="stat-value">94</div>
-      <div class="stat-unit">% (first cycle)</div>
-    </div>
-
-    <div class="stat-item">
-      <p class="stat-label">Areal Capacity</p>
-      <div class="stat-value">76</div>
-      <div class="stat-unit">mAh cm⁻² @ 24 µm</div>
-    </div>
-  </div>
-</div>
         <section id="banner" class="banner">
             
             <div class="container">
