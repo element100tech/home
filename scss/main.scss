@@ -27,5 +27,6 @@
 @import 'layout/responsive/tablet.scss';
 @import 'layout/responsive/laptop.scss';
 @import 'layout/responsive/desktop.scss';
+@use "card-glass" as *;
+@use "stats" as *;
 
-@use "card-glass";
