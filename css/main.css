@@ -428,6 +428,15 @@ p {
 .about-us h1 {
   margin-bottom: 40px;
 }
+/*inquiries*/
+/* line 71, ../scss/modules/_sections.scss */
+.inquiries {
+  background-color: #090909;
+}
+/* line 74, ../scss/modules/_sections.scss */
+.inquiries h1 {
+  margin-bottom: 40px;
+}
 
 /* team members */
 /* line 82, ../scss/modules/_sections.scss */
