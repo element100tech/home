@@ -1,3 +1,6 @@
+body {
+  background-color: #f2013f; /* or whichever lighter color you chose */
+}
 .card-glass {
   background: #f2013f;
   backdrop-filter: blur(12px);
