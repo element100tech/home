@@ -36,13 +36,13 @@ body {
 }
 
 .stat-label {
-  font-size: 1.5rem;
+  font-size: 5rem;
   color: #FFFFFF;
   margin-bottom: 0.5rem;
 }
 
 .stat-value {
-  font-size: 4rem;
+  font-size: 40rem;
   font-weight: 1200;
   color: #FFFFFF;
 }
