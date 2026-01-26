@@ -1,14 +1,62 @@
-/* Glass card - THIS IS THE CSS */
+/* Glass card container */
 .card-glass {
-  background: var(--card-bg);           /* semi-transparent white */
-  backdrop-filter: blur(12px);          /* frosted glass blur effect */
-  border: 1px solid var(--border);      /* subtle white border */
-  border-radius: var(--radius);         /* rounded corners */
-  padding: 1.5rem;
-  transition: all 0.3s;                 /* smooth hover transition */
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(12px);           /* frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  transition: all 0.3s;
 }
 
 .card-glass:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Card title */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Metrics grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Individual metric */
+.stat-item {
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.stat-unit {
+  font-size: 0.8rem;
+  color: #cbd5f5;
+  margin-top: 0.25rem;
+}
+
+/* Responsive: stack metrics on small screens */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
 }
