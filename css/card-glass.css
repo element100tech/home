@@ -10,7 +10,7 @@
 }
 
 .card-glass:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: #f2013f;
   border-color: rgba(255, 255, 255, 0.3);
 }
 
