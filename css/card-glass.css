@@ -36,7 +36,7 @@ body {
 }
 
 .stat-label {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 100;
   color: #FFFFFF;
   margin-bottom: 0.5rem;
@@ -46,10 +46,11 @@ body {
   font-size: 3rem;
   font-weight: 600;
   color: #FFFFFF;
+  margin-bottom: 0.5rem;
 }
 
 .stat-unit {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   color: #FFFFFF;
   margin-top: 0.5rem;
 }
