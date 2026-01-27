@@ -323,7 +323,7 @@ p {
 .team-memberCEO-img {
   width: 40%;
   height: 120px;
-  width: 200px;
+  width: 320px;
   background-image: url("../images/about-us/CEO.png");
   background-size: cover;
   background-position: center center;
@@ -333,7 +333,7 @@ p {
 .team-memberCTO-img {
   width: 40%;
   height: 120px;
-  width: 250px;
+  width: 360px;
   background-image: url("../images/about-us/CTO.png");
   background-size: cover;
   background-position: center center;
