@@ -165,7 +165,8 @@ p {
 }
 
 .brand-logonav {
-  height: 39px;      /* desktop size */
+  height: 42px;      /* desktop size */
+  margin-left: 8px;
 }
 /* line 15, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand:hover {
