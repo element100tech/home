@@ -907,6 +907,6 @@ table tr td:first-of-type {
 }
 @media (max-width: 768px) {
   .brand-logonav {
-    height: 24px;    /* smaller logo on phones */
+    height: 22px;    /* smaller logo on phones */
   }
 }
