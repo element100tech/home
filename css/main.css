@@ -406,7 +406,7 @@ p {
 /* line 11, ../scss/modules/_sections.scss */
 .banner {
   background-color: #f2013f;
-  max-width: 470px;
+  max-width: 700px;
 }
 /* line 14, ../scss/modules/_sections.scss */
 .banner .container {
@@ -800,7 +800,7 @@ table tr td:first-of-type {
     padding: 30px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   /* line 3, ../scss/layout/responsive/_tablet.scss */
   body {
     font-size: 16px;
