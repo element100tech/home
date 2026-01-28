@@ -569,7 +569,7 @@ p {
 }
 #ghughu-banner-carousel {
   width: 95%;       /* full width */
-  position: relative;
+  position: absolute;
 }
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
