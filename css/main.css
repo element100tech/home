@@ -406,6 +406,11 @@ p {
 /* line 11, ../scss/modules/_sections.scss */
 .banner {
   background-color: #f2013f;
+  height: 700px; /* adjust as needed */
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  position: relative;
 }
 
 /* line 14, ../scss/modules/_sections.scss */
