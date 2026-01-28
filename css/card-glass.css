@@ -27,8 +27,10 @@ body {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: 1fr auto; /* label | value */
+  row-gap: 1.5rem;
+  column-gap: 2rem;
+  align-items: center;
 }
 
 .stat-item {
