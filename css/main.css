@@ -579,7 +579,7 @@ p {
   /*left: 50%; /* horizontally center */
   /*transform: translateX(-50%);*/
   width: 95%; /* or max-width as needed */
-  text-align: center;
+  /*text-align: center;*/
 }
 
 /* line 38, ../scss/modules/_components.scss */
