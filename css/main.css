@@ -582,7 +582,8 @@ p {
   top: auto; /* adjust per screen size */
   left: 50%; /* horizontally center */
   transform: translateX(-50%);
-  width: 100%; /* or max-width as needed */
+  width: auto; /* or max-width as needed */
+  text-align: center;
 }
 
 /* line 38, ../scss/modules/_components.scss */
@@ -658,6 +659,9 @@ p {
   height: 12px;
   margin: 0;
   background-color: #F2013F;
+}
+.banner .carousel-inner {
+  height: 100%; /* make the carousel full height */
 }
 
 /* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
