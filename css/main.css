@@ -906,26 +906,8 @@ table tr td:first-of-type {
   }
 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
-  .banner {
-    height: 700px; /* adjust as needed */
-    display: flex;
-    align-items: center; /* vertical center */
-    justify-content: center; /* horizontal center */
-    position: relative;
-  }
-
-  .banner-item {
-    position: relative !important; /* override old absolute */
-    top: auto !important;          /* reset old top values */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 95%;
-    max-width: 1200px; /* optional */
-    text-align: center;
-  }
-
   .banner-item img {
-    margin-top: 0 !important; /* cancel old margin adjustments */
+    margin-top: -25px;
   }
 
   /* line 11, ../scss/layout/responsive/_laptop.scss */
@@ -965,17 +947,14 @@ table tr td:first-of-type {
   }
 
   .banner-item {
-    position: relative !important; /* override old absolute */
+    position: absolute !important; /* override old absolute */
     top: auto !important;          /* reset old top values */
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
     max-width: 1200px; /* optional */
     text-align: center;
   }
-
   .banner-item img {
-    margin-top: 0 !important; /* cancel old margin adjustments */
+    margin-top: -55px;
   }
 
   /* line 6, ../scss/layout/responsive/_desktop.scss */
