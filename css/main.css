@@ -406,7 +406,7 @@ p {
 /* line 11, ../scss/modules/_sections.scss */
 .banner {
   background-color: #f2013f;
-  /*height: 700px; /* adjust as needed */
+  /*height: 700px;*/ /* adjust as needed */
 }
 
 /* line 14, ../scss/modules/_sections.scss */
@@ -575,7 +575,7 @@ p {
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
   position: relative;
-  top: auto; /* adjust per screen size */
+  top: 5%; /* adjust per screen size */
   /*left: 50%;*/ /* horizontally center */
   /*transform: translateX(-50%);*/
   /*width: 95%;*/ /* or max-width as needed */
