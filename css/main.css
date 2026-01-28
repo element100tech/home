@@ -799,7 +799,7 @@ table tr td:first-of-type {
 @media (min-width: 375px) {
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
-    top: 30%;
+    top: 5%;
   }
 
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
