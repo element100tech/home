@@ -935,5 +935,5 @@ table tr td:first-of-type {
   }
 	.carousel-control {
 		height: 65px;
-	    margin-top: -65px;
+	    bottom: -10px;
 }
