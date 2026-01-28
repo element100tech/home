@@ -56,7 +56,7 @@ body {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .stats-grid {
     grid-template-columns: 3fr;
   }
