@@ -38,11 +38,11 @@ body {
 }
 
 .stat-variable {
-  font-size: clamp(1rem, 1vw, 1rem);
+  font-size: clamp(1rem, 1vw, 1.2rem);
 }
 
 .stat-valuebold {
-  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.2rem, 2.7vw, 1.7rem);
 }
 
 .stat-label {
