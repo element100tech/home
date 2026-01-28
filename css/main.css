@@ -904,7 +904,9 @@ table tr td:first-of-type {
   h1 {
     font-size: 62px;
   }
-
+  .banner {
+  height: 800px; /* adjust as needed */
+  }	 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
   .banner-item img {
     margin-top: -25px;
@@ -937,6 +939,9 @@ table tr td:first-of-type {
   }
 }
 @media (min-width: 1200px) {
+  .banner {
+  height: 900px; /* adjust as needed */
+  }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
     margin-top: -55px;
