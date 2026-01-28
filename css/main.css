@@ -567,16 +567,16 @@ p {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-#ghughu-banner-carousel {
-  width: 95%;       /* full width */
-  position: absolute;
-}
+/*#ghughu-banner-carousel {*/
+  /*width: 95%;*/       /* full width */
+  /*position: absolute;*/
+/*}*/
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
   position: absolute;
   top: auto; /* adjust per screen size */
-  /*left: 50%; /* horizontally center */
+  /*left: 50%;*/ /* horizontally center */
   /*transform: translateX(-50%);*/
   width: 95%; /* or max-width as needed */
   /*text-align: center;*/
