@@ -444,7 +444,7 @@ p {
 }
 .about-banner-wrapper.full-height {
     height: auto;       /* let content define height */
-    padding: 80px 0;    /* optional top/bottom space */
+    padding: 5px 0;    /* optional top/bottom space */
 }
 
 
