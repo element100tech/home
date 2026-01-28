@@ -54,8 +54,14 @@ body {
   color: #FFFFFF;
   margin-top: 1rem;
 }
+@media (max-width: 450px) {
+    .stats-grid {
+    grid-template-columns: 1fr;
+  }
 
+}
 
+  
 @media (max-width: 750px) {
   .stats-grid {
     grid-template-columns: 3fr;
