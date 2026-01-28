@@ -570,10 +570,12 @@ p {
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
-  position: absolute;
-  left: 50%;                  /* move left edge to center of parent */
-  transform: translateX(-50%); /* shift element back by half its width */
+  /*position: absolute;*/
+  position: relative;
+  /*left: 50%;                  /* move left edge to center of parent */
+  /*transform: translateX(-50%); */
   top: 5%;
+  width: 100%;
   /*top: auto;*/	
 }
 
