@@ -296,6 +296,15 @@ p {
 .section-snippet span:last-child {
   margin-bottom: 40px;
 }
+/*logo at Home page*/
+.hero-logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 220px;   /* desktop size */
+    width: 100%;
+    height: auto;
+}
+
 
 /* team member */
 /* line 52, ../scss/modules/_blocks.scss */
@@ -936,4 +945,8 @@ table tr td:first-of-type {
 	.carousel-control {
 		height: 65px;
 	    bottom: -10px;
+	}
+	    .hero-logo {
+        max-width: 140px;
+    }
 }
