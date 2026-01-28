@@ -570,8 +570,8 @@ p {
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
-  /*position: absolute;
-  top: 20%;*/
+  position: absolute;
+  /*top: 20%;*/
   top: auto;	
 }
 
