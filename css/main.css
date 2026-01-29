@@ -880,10 +880,7 @@ table tr td:first-of-type {
   .navbar-default .navbar-brand {
     padding: 20px 40px;
   }
-.banner {
-  max-width: 300px;
-  max-height: 200px;
-}
+
   /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
     /*top: 35%;*/
