@@ -412,6 +412,8 @@ p {
 /* line 14, ../scss/modules/_sections.scss */
 .banner .container {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* line 18, ../scss/modules/_sections.scss */
 .banner h1 {
