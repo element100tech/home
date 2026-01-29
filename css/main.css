@@ -406,7 +406,10 @@ p {
 /* line 11, ../scss/modules/_sections.scss */
 .banner {
   background-color: #090909;
-  height: auto; /* adjust as needed */
+  width: 100%;
+  overflow: hidden; /* prevent items from spilling */
+  position: relative; /* for carousel controls if needed */
+  height: auto;       /* allow carousel to push the next section down */
 }
 
 /* line 14, ../scss/modules/_sections.scss */
@@ -574,9 +577,9 @@ p {
 }
 #ghughu-banner-carousel {
   /*width: 95%;*/       /* full width */
+  position: relative;
   max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border: 5px solid lime;
   /*position: absolute;*/
 }
@@ -584,7 +587,9 @@ p {
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
   position: relative;
-  top: 5%; /* adjust per screen size */
+  top: 0;             /* avoid percentage top unless needed */
+  left: 0;
+  transform: none;
   /*left: 50%;*/ /* horizontally center */
   /*transform: translateX(-50%);*/
   /*width: 95%;*/ /* or max-width as needed */
