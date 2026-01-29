@@ -332,8 +332,8 @@ p {
 .team-memberCEO-img {
   /*height: 120px;*/
   aspect-ratio: 3 / 1;
-  height: 120px;
-  background-image: url("../images/about-us/CEO.png");
+  height: 70px;
+  background-image: url("../images/CEOv2.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -341,8 +341,8 @@ p {
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCTO-img {
   aspect-ratio: 3 / 1;   /* adjust to match image */
-  height: 120px;
-  background-image: url("../images/about-us/CTO.png");
+  height: 70px;
+  background-image: url("../images/CTOv2.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
