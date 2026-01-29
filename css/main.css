@@ -405,7 +405,7 @@ p {
 /* banner section */
 /* line 11, ../scss/modules/_sections.scss */
 .banner {
-  background-color: #f2013f;
+  background-color: #090909;
   height: 700px; /* adjust as needed */
 }
 
@@ -951,7 +951,7 @@ table tr td:first-of-type {
   }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
-    margin-top: -55px;
+    margin-top: -25px;
   }
 
   /* line 6, ../scss/layout/responsive/_desktop.scss */
