@@ -30,7 +30,6 @@ body {
   grid-template-columns: auto auto; /* label | value */
   row-gap: 1.5rem;
   column-gap: 2rem;
-  align-items: center;
 }
 
 .stat-item {
