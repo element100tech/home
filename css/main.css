@@ -409,7 +409,7 @@ p {
   /*width: 100%;*/
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: 500px;       /* allow carousel to push the next section down */
+  height: 400px;       /* allow carousel to push the next section down */
   border: 5px solid lime;
 }
 
@@ -610,7 +610,7 @@ p {
   height: 100%;
   object-fit: cover; /* ensures image fills container without distortion */
   margin: 0;           /* remove negative margin */
-  object-position: center 10%;
+  object-position: center 30%; /* moved down */
 }
 
 /* line 45, ../scss/modules/_components.scss */
