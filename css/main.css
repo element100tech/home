@@ -947,7 +947,7 @@ table tr td:first-of-type {
     font-size: 62px;
   }
   .banner {
-  height: 400px; /* adjust as needed */
+  height: 300px; /* adjust as needed */
   }	 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
   .banner-item img {
@@ -982,7 +982,7 @@ table tr td:first-of-type {
 }
 @media (min-width: 1200px) {
   .banner {
-  height: 500px; /* adjust as needed */
+  height: 300px; /* adjust as needed */
   }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
