@@ -912,7 +912,16 @@ table tr td:first-of-type {
   object-fit: cover;   /* fill without distortion */
     margin-top: -10px;
   }
+#ghughu-banner-carousel {
+  width: 100%;       /* full width */
+	height: 200%;
+  /*position: relative;*/
+  /*max-width: none;*/
+  /*margin: 0 auto;*/
+  /*border: 5px solid lime;*/
 
+  /*position: absolute;*/
+}
   /* line 36, ../scss/layout/responsive/_tablet.scss */
   .about-us p {
     color: #e6e6e6;
