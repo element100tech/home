@@ -38,6 +38,10 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* line 31, ../scss/base/_reset.scss */
 body {
   line-height: 1;
