@@ -519,6 +519,9 @@ p {
 .address2 {
   background-color: #f2013f;
 }
+.addresslocation {
+  background-color: #f2013f;
+}
 /* line 92, ../scss/modules/_sections.scss */
 .address h1 {
   margin-bottom: 30px;
