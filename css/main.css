@@ -409,7 +409,7 @@ p {
   /*width: 100%;*/
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: 400px;       /* allow carousel to push the next section down */
+  height: 100px;       /* 400px allow carousel to push the next section down */
 
 }
 
@@ -625,7 +625,7 @@ p {
 
 /* line 45, ../scss/modules/_components.scss */
 .carousel-control {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   width: 50px;
@@ -753,7 +753,7 @@ p {
   font-family: "Roboto Mono";
   background-color: #fff;
   color: #090909;
-  padding: 17px 5px;
+  padding: 47px 5px; /*17px 5px*/
 }
 
 /* line 8, ../scss/modules/_forms.scss */
@@ -773,7 +773,7 @@ label {
 input, textarea {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
-  padding: 17px 40px;
+  padding: 47px 40px;
   margin-bottom: 20px;
 }
 
@@ -810,7 +810,7 @@ table {
 }
 /* line 8, ../scss/modules/_tables.scss */
 table tr td {
-  padding: 15px 0;
+  padding: 75px 0; /*15px 0*/
   border-bottom: 1px solid #d5d5d5;
 }
 /* line 12, ../scss/modules/_tables.scss */
