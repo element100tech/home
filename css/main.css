@@ -568,7 +568,7 @@ p {
 /*prelooader */
 /* line 3, ../scss/modules/_components.scss */
 #loader-wrapper {
-  display: none;/* hide preloader for testing */
+  /*display: none;*//* hide preloader for testing */
   position: fixed;
   top: 0;
   left: 0;
