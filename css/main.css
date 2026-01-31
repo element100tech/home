@@ -597,6 +597,10 @@ p {
 
   /*position: absolute;*/
 }
+#ghughu-banner-carousel .item:nth-child(3) img { /*because the third image as different size*/
+  object-position: center 65%;
+}
+
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
