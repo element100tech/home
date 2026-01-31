@@ -1013,6 +1013,11 @@ table tr td:first-of-type {
   .team-member-img, .team-member-contact {
     max-width: 350px;
   }
+ .team-member-desc {
+    margin: 0px 15px;
+    text-align: justify;
+	max-width: 85%; /* make text 15% narrower than column */
+}
 }
 @media (min-width: 1200px) {
   body, tbody {
@@ -1035,6 +1040,7 @@ table tr td:first-of-type {
 .team-member-desc {
     margin: 0px 15px;
     text-align: justify;
+	max-width: 85%; /* make text 15% narrower than column */
 }
 
 .footer-link a:hover {
