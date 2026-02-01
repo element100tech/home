@@ -53,7 +53,19 @@ $(document).on("click", "#top-navigation-bar a", function () {
   }
 });
 
-
+* ================================
+* SMOOTH SCROLL FOR ANCHOR LINKS
+* ================================
+*/
+  $('a[href^="#"]').on('click', function(e) {
+    var target = $(this.getAttribute('href'));
+    if (target.length) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 600); // 600ms scroll duration, adjust as needed
+    }
+  });
 /**
  * ================================
  * FULL SCREEN VIEW                    
