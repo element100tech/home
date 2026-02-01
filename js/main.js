@@ -130,15 +130,12 @@ $('#contact-form').validate({
 
     errorClass:"local-error",
 
-	submitHandler: function(){
-        
+	submitHandler: function(){     
     }
-})
-
-
-
-
 });
+
+
+}); // end of $(function(){})
 
 
 
