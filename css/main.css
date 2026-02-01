@@ -183,16 +183,16 @@ p {
   font-family: "Open sans", "Sans Serif";
 }
 /* line 24, ../scss/layout/_nav.scss */
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggler {
   border: none;
   background-color: #f2013f;
 }
 /* line 28, ../scss/layout/_nav.scss */
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggler:hover, .navbar-default .navbar-toggler:focus {
   background-color: #d90138;
 }
 /* line 32, ../scss/layout/_nav.scss */
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggler .icon-bar {
   background-color: white;
 }
 /* line 37, ../scss/layout/_nav.scss */
