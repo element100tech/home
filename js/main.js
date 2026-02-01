@@ -31,6 +31,7 @@ var wow = new WOW({ mobile: false });
  * ================================
  */
 
+
 // Handle active menu item on click
 $("#top-navigation-bar li").on("click", function () {
     $("#top-navigation-bar li.active").removeClass("active");
@@ -46,26 +47,33 @@ $("#top-navigation-bar li a").each(function () {
   }
 });
 
-// CLOSE MOBILE MENU (
+
+// Close mobile menu
 $(document).on("click", "#top-navigation-bar a", function () {
     if ($(".navbar-toggle").is(":visible")) {
         $(".navbar-toggle").trigger("click");
     }
-});	
+});
+	
 /**
 * ================================
 * SMOOTH SCROLL FOR ANCHOR LINKS
 * ================================
 */
-$('a[href^="#"]').on('click', function(e) {
+$('a[href^="#"]').on('click', function (e) {
     var target = $(this.getAttribute('href'));
-    if (target.length) {
-        e.preventDefault();
-        var navHeight = $('.navbar-fixed-top').outerHeight() || 0;
+    if (!target.length) return;
+
+    e.preventDefault();
+
+    var navHeight = $('.navbar-fixed-top').outerHeight() || 0;
+
+    // allow Bootstrap collapse to finish first (IMPORTANT on mobile)
+    setTimeout(function () {
         $('html, body').animate({
             scrollTop: target.offset().top - navHeight
         }, 600);
-    }
+    }, 300);
 });
 /**
  * ================================
