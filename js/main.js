@@ -50,7 +50,7 @@ $("#top-navigation-bar li a").each(function () {
 });
   // Auto-collapse mobile menu on click
   $('.navbar-nav>li>a').on('click', function(){
-      if ($('.navbar-toggle').is(':visible')) {
+      if ($('.navbar-toggler').is(':visible')) {
           $('.navbar-collapse').collapse('hide');
       }
   });	
