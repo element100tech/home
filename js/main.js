@@ -52,7 +52,7 @@ $(document).on("click", "#top-navigation-bar a", function () {
     $(".navbar-toggle").trigger("click");
   }
 });
-
+/**
 * ================================
 * SMOOTH SCROLL FOR ANCHOR LINKS
 * ================================
