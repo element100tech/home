@@ -48,9 +48,8 @@ $("#top-navigation-bar li a").each(function () {
 });
 
 });
-  // When a navbar link is clicked
+  // Auto-collapse mobile menu on click
   $('.navbar-nav>li>a').on('click', function(){
-      // Only collapse if the menu is visible (mobile)
       if ($('.navbar-toggle').is(':visible')) {
           $('.navbar-collapse').collapse('hide');
       }
